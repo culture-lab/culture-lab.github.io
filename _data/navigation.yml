@@ -1,4 +1,4 @@
-- title: Start
+- title: Main
   url: "/"
   side: left
 
@@ -6,10 +6,12 @@
   url: "/getting-started/"
   side: left
 
-- title: "구성원 소개"
+- title: "구성원"
   url: "/design/"
   side: left
   dropdown:
+  - title: "홍석경 교수님"
+    url: "/"
   - title: "박사과정생"
     url: "/design/grid/"
   - title: "석사과정생"
@@ -36,6 +38,17 @@
   #   url: "/design/gallery/"
   # - title: "Portfolio"
   #   url: "/design/portfolio/"
+
+
+- title: "진행 연구"
+  url: "/design/"
+  side: left
+  dropdown:
+  - title: "프로젝트"
+  - title: "출판"
+  - title: "발표"
+
+
 
 # - title: "Templates"
 #   url: "/design/"
