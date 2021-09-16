@@ -25,7 +25,7 @@ author: minjung
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://culture-lab.github.io/'
+url: 'https://culture-lab.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
