@@ -38,11 +38,11 @@ improve_content:
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://github.com/culture-lab/culture-lab.github.io/tree/c-main/images'
+urlimg: 'https://github.com/culture-lab/culture-lab.github.io/tree/c-main/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "cl_logo.png"
+logo: "logo.png"
 
 # Plugins
 plugins:
