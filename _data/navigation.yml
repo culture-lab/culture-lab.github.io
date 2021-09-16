@@ -73,3 +73,8 @@
 - title: "Contact"
   url: "/contact/"
   side: right
+
+  # testing there
+  - title: "연구실 소개"
+    url: "/labinfo/"
+    side: left
