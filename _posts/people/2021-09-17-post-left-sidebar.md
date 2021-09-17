@@ -1,6 +1,5 @@
 ---
 layout: page
-sidebar: left
 subheadline: People
 title:  "Prof. SK Hong"
 teaser: "Communication, Seoul National University"
