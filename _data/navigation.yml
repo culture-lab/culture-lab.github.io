@@ -22,9 +22,9 @@
   - title: "출판"
   - title: "발표"
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# - title: "Search"
+#   url: "/search/"
+#   side: right
 
 - title: "Contact"
   url: "/contact/"
