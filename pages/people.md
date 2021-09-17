@@ -14,7 +14,7 @@ permalink: "/people/"
 <ul>
     {% for post in site.categories.people_PROF %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <img src = "header_unsplash_12.jpg" style="width:100px;height:120px;"></li>
+    <img src="{{post.image.title}}" style="width:100px;height:120px;"></li>
     {% endfor %}
 </ul>
 
@@ -22,7 +22,7 @@ permalink: "/people/"
 ## 박사
 <ul>
     {% for post in site.categories.people_DR %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{post.image.title}}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
