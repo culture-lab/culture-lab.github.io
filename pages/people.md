@@ -22,7 +22,7 @@ permalink: "/people/"
 ## 박사
 <ul>
     {% for post in site.categories.people_DR %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{post.image.title}}</a></li>
     {% endfor %}
 </ul>
 
