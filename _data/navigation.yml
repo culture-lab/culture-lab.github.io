@@ -6,14 +6,13 @@
   url: "/info/"
   side: left
 
+- title: 홍석경 교수님
+  url: "/people_prof/prof-SK-Hong/"
+  side: left
+
 - title: "구성원"
   url: "/people/"
   side: left
-  dropdown:
-  - title: "홍석경 교수님"
-    url: "/people/prof-SK-Hong/"
-  - title: "구성원"
-    url: "/people"
 
 - title: "진행 연구"
   url: "/design/"
