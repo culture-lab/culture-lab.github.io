@@ -13,8 +13,11 @@ permalink: "/people/"
 ## 교수
 <ul>
     {% for post in site.categories.people_PROF %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;"></li>
+    <li>
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endfor %}
 </ul>
 
