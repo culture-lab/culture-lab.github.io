@@ -15,7 +15,7 @@ permalink: "/people/"
     {% for post in site.categories.people_PROF %}
     <li>
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
-    
+    <br>
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
@@ -25,7 +25,10 @@ permalink: "/people/"
 ## 박사
 <ul>
     {% for post in site.categories.people_DR %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    <br>
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
