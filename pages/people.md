@@ -26,13 +26,23 @@ permalink: "/people/"
 ## 박사
 <br>
 <ul>
-    {% for post in site.categories.people_DR %}
-    <li>
+    {% for post in site.categories.people_PHD %}
+    <li style="list-style-type: none;">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
-    <br>
-    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <br>{{ post.title }}</a>
+    </li>
     {% endfor %}
 </ul>
 
 
 ## 석사
+<br>
+<ul>
+    {% for post in site.categories.people_MA %}
+    <li style="list-style-type: none;">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    <br>{{ post.title }}</a>
+    </li>
+    {% endfor %}

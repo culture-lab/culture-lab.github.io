@@ -12,12 +12,8 @@
   dropdown:
   - title: "홍석경 교수님"
     url: "/people/prof-SK-Hong/"
-  - title: "박사과정생"
-    url: "/people/"
-  - title: "석사과정생"
-    url: "/people/"
-  - title: "졸업생"
-    url: "/people/"
+  - title: "구성원"
+    url: "/people"
 
 - title: "진행 연구"
   url: "/design/"
