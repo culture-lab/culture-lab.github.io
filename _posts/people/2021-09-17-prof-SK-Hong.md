@@ -1,7 +1,7 @@
 ---
 layout: page
 subheadline: People
-title:  "Prof. SK Hong"
+title:  "Prof. SK Hong 홍석경"
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
