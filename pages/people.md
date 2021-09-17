@@ -11,6 +11,7 @@ permalink: "/people/"
 <br>
 
 ## 교수
+<br>
 <ul>
     {% for post in site.categories.people_PROF %}
     <li style="list-style-type: none;">
@@ -23,6 +24,7 @@ permalink: "/people/"
 
 
 ## 박사
+<br>
 <ul>
     {% for post in site.categories.people_DR %}
     <li>
