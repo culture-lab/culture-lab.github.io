@@ -1,13 +1,14 @@
 ---
 layout: page
 subheadline: People
-title:  "Dr. SJ Park 박소정"
+title:  "SJ Park 박소정"
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
     - post format
 categories:
-    - people_DR
+    - people
+    - people_PHD
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg
@@ -21,9 +22,15 @@ image:
 국회의 회의는 공개한다. 다만, 출석의원 과반수의 찬성이 있거나 의장이 국가의 안전보장을 위하여 필요하다고 인정할 때에는 공개하지 아니할 수 있다.
 
 
+#### 발표
+- 가(2020)
+- 나(2019)
+- 다(2018)
 
+#### 출판
+- 가(2020)
+- 나(2019)
+- 다(2018)
 
-
-## Other Post Formats
-{: .t60 }
-{% include list-posts tag='post format' %}
+#### 이미지 다운받기
+<a href="http://image.yes24.com/goods/90407425/XL" >click here</a>
