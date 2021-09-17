@@ -23,6 +23,7 @@ permalink: "/people/"
 </ul>
 
 
+<br>
 ## 박사
 <br>
 <ul>
@@ -36,6 +37,7 @@ permalink: "/people/"
 </ul>
 
 
+<br>
 ## 석사
 <br>
 <ul>
