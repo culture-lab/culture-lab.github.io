@@ -14,9 +14,9 @@ permalink: "/people/"
 <ul>
     {% for post in site.categories.people_PROF %}
     <li style="list-style-type: none;">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
-    <br>
-    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <br>{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
