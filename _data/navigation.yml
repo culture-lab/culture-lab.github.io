@@ -13,32 +13,11 @@
   - title: "홍석경 교수님"
     url: "/people/prof-SK-Hong/"
   - title: "박사과정생"
-    url: "/people/dr-SJ-Park/"
+    url: "/people/"
   - title: "석사과정생"
-    url: "/design/grid/"
+    url: "/people/"
   - title: "졸업생"
-    url: "/design/grid/"
-  # - title: "Grid & Colors"
-  #   url: "/design/grid/"
-  # - title: "Typography"
-  #   url: "/design/typography/typography/"
-  # - title: "Page/Post"
-  #   url: "/design/page/"
-  # - title: "Post-Left-Sidebar"
-  #   url: "/design/post-left-sidebar/"
-  # - title: "Post-Right-Sidebar"
-  #   url: "/design/post-right-sidebar/"
-  # - title: "Page Full-Width"
-  #   url: "/design/page-fullwidth/"
-  # - title: "Blog-Page"
-  #   url: "/blog/"
-  # - title: "Video"
-  #   url: "/design/video/"
-  # - title: "Gallery"
-  #   url: "/design/gallery/"
-  # - title: "Portfolio"
-  #   url: "/design/portfolio/"
-
+    url: "/people/"
 
 - title: "진행 연구"
   url: "/design/"
@@ -48,77 +27,10 @@
   - title: "출판"
   - title: "발표"
 
+- title: "Search"
+  url: "/search/"
+  side: right
 
-
-# - title: "Templates"
-#   url: "/design/"
-#   side: left
-#   dropdown:
-#   - title: "Grid & Colors"
-#     url: "/design/grid/"
-#   - title: "Typography"
-#     url: "/design/typography/typography/"
-#   - title: "Page/Post"
-#     url: "/design/page/"
-#   - title: "Post-Left-Sidebar"
-#     url: "/design/post-left-sidebar/"
-#   - title: "Post-Right-Sidebar"
-#     url: "/design/post-right-sidebar/"
-#   - title: "Page Full-Width"
-#     url: "/design/page-fullwidth/"
-#   - title: "Blog-Page"
-#     url: "/blog/"
-#   - title: "Video"
-#     url: "/design/video/"
-#   - title: "Gallery"
-#     url: "/design/gallery/"
-#   - title: "Portfolio"
-#     url: "/design/portfolio/"
-#
-# - title: "Header Styles"
-#   url: "/headers/"
-#   side: left
-#   dropdown:
-#   - title: "Header with Full-Width-Image"
-#     url: "/design/header-full-width-image/"
-#   - title: "Header with Image and Pattern"
-#     url: "/design/header-image-pattern/"
-#   - title: "Header with image and color"
-#     url: "/design/header-image-color/"
-#   - title: "Header Only With Logo"
-#     url: "/design/header-logo-only/"
-#   - title: "Header With Text"
-#     url: "/design/header-with-text/"
-#   - title: "No Header"
-#     url: "/design/no-header/"
-#   - title: "No Header but Image"
-#     url: "/design/no-header-but-image/"
-#
-# - title: Documentation
-#   url: "/documentation/"
-#   side: left
-#   dropdown:
-#   - title: "Changelog"
-#     url: "/changelog/"
-#   - title: "Roadmap"
-#     url: "/roadmap/"
-#
-# - title: Blog
-#   url: "/blog/"
-#   side: left
-#   dropdown:
-#   - title: "Blog Archive"
-#     url: "/blog/archive/"
-#
-# - title: "Search"
-#   url: "/search/"
-#   side: right
-#
-# - title: "Contact"
-#   url: "/contact/"
-#   side: right
-#
-#   # testing there
-# - title: "연구실 소개"
-#   url: "/labinfo/"
-#   side: left
+- title: "Contact"
+  url: "/contact/"
+  side: right
