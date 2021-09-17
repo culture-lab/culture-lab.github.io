@@ -11,7 +11,7 @@
   side: left
   dropdown:
   - title: "홍석경 교수님"
-    url: "/"
+    url: "/people/post-left-sidebar"
   - title: "박사과정생"
     url: "/design/grid/"
   - title: "석사과정생"
