@@ -7,7 +7,6 @@ breadcrumb: true
 tags:
     - post format
 categories:
-    - people
     - people_PHD
 image:
     thumb: gallery-example-3-thumb.jpg
