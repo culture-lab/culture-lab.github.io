@@ -52,7 +52,6 @@ permalink: "/people/"
 
 <div class="row t80">
     {% for post in site.categories.people_MA %}
-    <li style="list-style-type: none;">
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
