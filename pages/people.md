@@ -3,8 +3,7 @@ layout: page
 show_meta: false
 title: "연구실 구성원"
 subheadline: "Participants"
-header:
-   image_fullwidth: "header_unsplash_12.jpg"
+header: no
 permalink: "/people/"
 ---
 
