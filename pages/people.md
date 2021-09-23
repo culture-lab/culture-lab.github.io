@@ -44,6 +44,6 @@ permalink: "/people/"
     {% for post in site.categories.people_MA %}
     <a class="medium-4 columns b20" display="flex"  align-items="stretch" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
-    <br>{{ post.title }}</a>
+    <br>{{ post.title }}<br></a>
     {% endfor %}
   </div>
