@@ -40,9 +40,9 @@ permalink: "/people/"
 <br>
 ## 석사
 
-<div class="row t10 uncollapse">
+<div class="row t10">
     {% for post in site.categories.people_MA %}
-    <a class="medium-4 columns-uncentered b20" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <a class="medium-4 columns-centered:last-child b20" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}<br></a>
     {% endfor %}
