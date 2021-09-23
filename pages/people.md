@@ -11,30 +11,24 @@ permalink: "/people/"
 <br>
 
 ## 교수
-<br>
-<ul>
+<div class="row t10">
     {% for post in site.categories.people_PROF %}
-    <li style="list-style-type: none;">
-    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <a class="medium-4 columns b30" style="float:left;position:static" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
-    </li>
     {% endfor %}
-</ul>
+  </div>
 
 
 <br>
 ## 박사
-<br>
-<ul>
+<div class="row t10">
     {% for post in site.categories.people_PHD %}
-    <li style="list-style-type: none;">
-    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <a class="medium-4 columns b30" style="float:left;position:static" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
-    </li>
     {% endfor %}
-</ul>
+  </div>
 
 
 <br>
@@ -42,8 +36,8 @@ permalink: "/people/"
 
 <div class="row t10">
     {% for post in site.categories.people_MA %}
-    <a class="medium-4 columns b20" style="float:left;position:static" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <a class="medium-4 columns b30" style="float:left;position:static" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
     <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
-    <br>{{ post.title }}<br></a>
+    <br>{{ post.title }}</a>
     {% endfor %}
   </div>
