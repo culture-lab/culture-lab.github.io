@@ -104,7 +104,7 @@ $last-child-float: $opposite-direction !default;
   // If positioned for default .column, include relative position
   // push and pull require position set
   @if $position or $push or $pull {
-    position: static;
+    position: relative;
   }
 
   // If collapsed, get rid of gutter padding
