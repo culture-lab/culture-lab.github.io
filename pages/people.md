@@ -16,7 +16,7 @@ permalink: "/people/"
     {% for post in site.categories.people_PROF %}
     <li style="list-style-type: none;">
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
-    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
     </li>
     {% endfor %}
@@ -30,7 +30,7 @@ permalink: "/people/"
     {% for post in site.categories.people_PHD %}
     <li style="list-style-type: none;">
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
-    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
     </li>
     {% endfor %}
@@ -40,11 +40,22 @@ permalink: "/people/"
 <br>
 ## 석사
 <br>
-<ul>
+<!-- <ul>
     {% for post in site.categories.people_MA %}
     <li style="list-style-type: none;">
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
-    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:100px;height:120px;">
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
     <br>{{ post.title }}</a>
     </li>
     {% endfor %}
+  </ul> -->
+
+<div class="row t80">
+    {% for post in site.categories.people_MA %}
+    <li style="list-style-type: none;">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">    
+    <img src="https://culture-lab.github.io/images/{{post.image.title}}" style="width:150px;height:150px;">
+    <br>{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </div>
