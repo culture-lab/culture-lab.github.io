@@ -1,8 +1,8 @@
 ---
 layout: page
 subheadline: People
-title:  "Prof. SK Hong 홍석경"
-teaser: "Communication, Seoul National University"
+title:  "Seok-Kyeong Hong 홍석경"
+teaser: "Professor / Communication, Seoul National University"
 breadcrumb: true
 tags:
     - post format
@@ -11,24 +11,32 @@ categories:
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg
-    caption_url: http://unsplash.com
 ---
-## Introduction
-**홍석경**교수님은 국내에서 손꼽히는 한류 연구자. 서울대학교 불문학과를 졸업한 후 프랑스 그르노블대학교에서 언론정보학으로 박사학위를 받았다. 2000년부터 보르도3대학교 언론정보학과 부교수로 재직했고, 2013년부터 서울대학교 언론정보학과 교수로 재직중이다.
+amuna-kim@snu.ac.kr
 
-서울대 아시아연구소(소장 박수진)의 동북아시아센터(센터장 정근식)는 아시아지역정보센터, 사회발전연구소와 공동 주관으로 지난 10일 오후에 “코로나19 시대, 재난 거버넌스의 형성과 전망: 국제비교연구를 위하여”를 주제로 온라인 회의를 개최했다. 지난 2월 코로나 19의 사회적 충격과 전망에 대한 긴급좌담회 이후 코로나19 관련 두 번째 학술행사로, 서울대학교 코로나연구네트워크(SNUCRN)와 코이카(KOICA)가 공동으로 주최했다.
+### Interests
+<span style="color:DarkSlateGrey">한류/온라인콘서트/동아시아정치/K-뷰티<br>Hallyu/Online Concert/East-Asian Politics/K-Beauty</span>
 
-본 행사는 보건, 행정, 정치, 경제, 사회 등 주요 전문가들이 모여 ‘코로나19’의 사회적 충격을 이슈별로 진단하고, 중국, 미국, 유럽 등 주요 지역의 코로나 확산 현안과 쟁점을 확인했다. 또한, 코로나19의 확산에 따른 글로벌 거버넌스 구축, 국제시민사회의 협력, 국제개발협력의 현실적인 쟁점과 대책 마련의 중요성을 논의하고, 향후 코로나19 연구가 나아가야 할 방향성과 국제비교연구의 방향과 전략에 대해 모색하는 자리로 마련되었다.
+### About Me
+대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다. 언론·출판에 대한 허가나 검열과 집회·결사에 대한 허가는 인정되지 아니한다. 국군의 조직과 편성은 법률로 정한다. 저작자·발명가·과학기술자와 예술가의 권리는 법률로써 보호한다.
 
-#### 발표
-- 가(2020)
-- 나(2019)
-- 다(2018)
+국회의 정기회는 법률이 정하는 바에 의하여 매년 1회 집회되며, 국회의 임시회는 대통령 또는 국회재적의원 4분의 1 이상의 요구에 의하여 집회된다. 국무회의는 정부의 권한에 속하는 중요한 정책을 심의한다. 이 헌법시행 당시의 대법원장과 대법원판사가 아닌 법관은 제1항 단서의 규정에 불구하고 이 헌법에 의하여 임명된 것으로 본다.
 
-#### 출판
-- 가(2020)
-- 나(2019)
-- 다(2018)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at pretium lorem. In hac habitasse platea dictumst. Aliquam erat volutpat. Nam vitae nisi non dolor iaculis auctor in ac massa. Donec mollis est a quam fringilla, non pretium tellus congue. Vivamus a molestie sem. Nullam vulputate odio et mi semper tempor. Sed porta, lectus sed faucibus pharetra, dui turpis blandit leo, quis euismod mi mauris eget lectus. Cras vestibulum urna at maximus faucibus. Pellentesque scelerisque sagittis tellus. Morbi quis felis dignissim, luctus est id, pretium nisi.
+
+Nam sapien ex, porta ac imperdiet ut, iaculis et nisi. Maecenas ornare, elit vel sollicitudin eleifend, lacus neque aliquam diam, at rutrum elit justo nec libero. Sed eu aliquam tortor. Sed lacus neque, lobortis in iaculis sed, fringilla hendrerit lorem. Ut id gravida ex.
+
+<br>
+### Academic work
+
+#### Publications
+- Seok-Kyeong HONG, Sojeong PARK, Daemin PARK, Seungyun OH.(2019).Geography of Hallyu Studies: Analysis of Academic Discourse on Hallyu in International Research.Korea Journal,59(2),111-143.
+- Sojeong Park, Inhee Jang, Seok-Kyeong Hong.(2021).Watching Korean Dramas through Global SVOD Services in Japan.Korean Journal of Journalism & Communication Studies,65(3),122-162.
+
+#### Presentations
+- abcde(2021)
+- fghjik(2020)
+- lmnop
 
 #### 이미지 다운받기
 <a href="http://res.heraldm.com/phpwas/restmb_jhidxmake.php?idx=5&simg=201912111031591873863_20191211103329_01.jpg" >click here</a>
