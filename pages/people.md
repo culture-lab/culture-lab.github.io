@@ -8,8 +8,6 @@ header:
 permalink: "/people/"
 ---
 
-<br>
-
 ## 교수
 <div class="row t10">
     {% for post in site.categories.people_PROF %}
