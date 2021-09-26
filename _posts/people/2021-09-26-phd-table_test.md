@@ -19,9 +19,8 @@ header: no
     {% endfor %}
 </ul> -->
 
-
-{% assign row = site.data.BTS[0] %}
-{{ row | inspect }}
+<!-- {% assign row = site.data.BTS[0] %}
+{{ row | inspect }} -->
 
 
 {% assign groups = site.data.BTS | group_by: "type" %}
@@ -34,10 +33,10 @@ header: no
 
 
 
-<p> test updated 922 </p>
+<p> test updated 923 </p>
 <ul>
  {% for song in site.data.BTS %}
-   {% if song.performer == "{{post.name_id}}" %}
+   {% if song.performer == {{post.name_id}} %}
     <li>
         <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
   </li>
