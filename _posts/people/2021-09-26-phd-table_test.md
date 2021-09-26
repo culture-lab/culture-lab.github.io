@@ -37,7 +37,9 @@ header: no
 <ul>
  {% for song in site.data.BTS %}
    {% if song.performer == "Agust D" %}
-    <li> {{song.title}} {{song.view}} </li>
+    <li>
+        <a href={{song.URL}}>{{song.title}}</a>  {{song.view}}
+  </li>
     {% endif %}
  {% endfor %}
 </ul>
