@@ -3,6 +3,7 @@ layout: page
 subheadline: People
 show_meta: false
 title: Table test
+name_id: BTS
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
@@ -33,12 +34,25 @@ header: no
 
 
 
+<p> test updated 922 </p>
+<ul>
+ {% for song in site.data.BTS %}
+   {% if song.performer == "{{post.name_id}}" %}
+    <li>
+        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
+  </li>
+    {% endif %}
+ {% endfor %}
+</ul>
+
+
+
 <p> test updated 917 </p>
 <ul>
  {% for song in site.data.BTS %}
    {% if song.performer == "Agust D" %}
     <li>
-        <a href="{{song.URL}}">{{song.title}}</a>  {{song.view}}
+        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
   </li>
     {% endif %}
  {% endfor %}
