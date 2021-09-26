@@ -23,6 +23,14 @@ header: no
 {{ row | inspect }}
 
 
+{% assign groups = site.data.BTS | group_by: "type" %}
+<ul>
+{% for g in groups %}
+{% assign type = g.items | where: "type", "MV" %}
+<li>name : {{ g.name }} {{ type.size }} type</li>
+{% endfor %}
+</ul>
+
 
 <table>
   {% for row in site.data.BTS %}
