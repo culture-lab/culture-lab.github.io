@@ -39,7 +39,7 @@ header: no
  {% for song in site.data.BTS %}
    {% if song.performer == "j-hope"%}
     <li>
-        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
+        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.date}}
   </li>
     {% endif %}
  {% endfor %}
@@ -52,7 +52,7 @@ header: no
  {% for song in site.data.BTS %}
    {% if song.performer == "Agust D" %}
     <li>
-        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
+        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.date}}
   </li>
     {% endif %}
  {% endfor %}
