@@ -36,7 +36,7 @@ header: no
 <p> test updated 923 </p>
 <ul>
  {% for song in site.data.BTS %}
-   {% if song.performer == {{post.name_id}} %}
+   {% if song.performer == {{name_id}} %}
     <li>
         <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
   </li>
