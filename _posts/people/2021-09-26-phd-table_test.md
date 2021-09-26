@@ -38,10 +38,10 @@ header: no
 <p> test start here</p>
  {% for song in site.data.BTS %}
 
-    {% if {{song.performer}} == "August D" %}
+    <!-- {% if {{song.performer}} == "August D" %} -->
     <li> {{song.performer}} {{song.title}} {{song.view}}
     </li>
-    {% endif %}
+    <!-- {% endif %} -->
 
  {% endfor %}
 </ul>
