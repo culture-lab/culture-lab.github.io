@@ -33,16 +33,10 @@ header: no
 
 
 
-
+<p> test updated 838 </p>
 <ul>
-<p> test updated </p>
  {% for song in site.data.BTS %}
-
-    <!-- {% if {{song.performer}} == "August D" %} -->
-    <li> {{song.performer}} {{song.title}} {{song.view}}
-    </li>
-    <!-- {% endif %} -->
-
+    <li> {{song.title}} {{song.view}} </li>
  {% endfor %}
 </ul>
 
