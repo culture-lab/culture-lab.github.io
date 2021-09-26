@@ -31,13 +31,6 @@ header: no
 {% endfor %}
 </ul>
 
-<ul>
-{% for i in site.data.BTS %}
-{% assign type = i.items | where: "view" > 100000000 %}
-<li>name : {{ i.title }} {{ type.size }} type</li>
-{% endfor %}
-</ul>
-
 
 
 
