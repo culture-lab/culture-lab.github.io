@@ -1,8 +1,8 @@
 ---
 layout: page
+subheadline: People
 show_meta: false
 title: Table test
-subheadline: People
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
