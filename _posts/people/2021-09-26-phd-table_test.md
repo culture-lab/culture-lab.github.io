@@ -3,7 +3,7 @@ layout: page
 subheadline: People
 show_meta: false
 title: Table test
-name_id: BTS
+name_id: "BTS"
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
@@ -33,10 +33,10 @@ header: no
 
 
 
-<p> test updated 939 </p>
+<p> test updated 943 </p>
 <ul>
  {% for song in site.data.BTS %}
-   {% if song.performer == {{"post.name_id"}} %}
+   {% if song.performer == {{"site.name_id"}} %}
     <li>
         <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
   </li>
