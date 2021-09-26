@@ -34,6 +34,18 @@ header: no
 
 
 
+<ul>
+ {% for song in site.data.BTS %}
+
+    {% if {{song.performer}} == "August D" %}
+    <li> {{song.performer}} {{song.title}} {{song.view}}
+    </li>
+    {% endif %}
+
+ {% endfor %}
+</ul>
+
+
 <table>
   {% for row in site.data.BTS %}
     {% if forloop.first %}
