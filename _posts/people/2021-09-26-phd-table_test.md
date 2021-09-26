@@ -3,7 +3,6 @@ layout: page
 subheadline: People
 show_meta: false
 title: Table test
-name_id: "BTS"
 teaser: "Communication, Seoul National University"
 breadcrumb: true
 tags:
@@ -22,6 +21,8 @@ header: no
 <!-- {% assign row = site.data.BTS[0] %}
 {{ row | inspect }} -->
 
+{{}}
+
 
 {% assign groups = site.data.BTS | group_by: "type" %}
 <ul>
@@ -36,7 +37,7 @@ header: no
 <p> test updated 943 </p>
 <ul>
  {% for song in site.data.BTS %}
-   {% if song.performer == {{"site.name_id"}} %}
+   {% if song.performer == "j-hope"%}
     <li>
         <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.view}}
   </li>
