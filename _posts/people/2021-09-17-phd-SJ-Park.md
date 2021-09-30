@@ -36,9 +36,16 @@ Nam sapien ex, porta ac imperdiet ut, iaculis et nisi. Maecenas ornare, elit vel
 - Sojeong Park, Inhee Jang, Seok-Kyeong Hong.(2021).Watching Korean Dramas through Global SVOD Services in Japan.Korean Journal of Journalism & Communication Studies,65(3),122-162.
 
 #### Presentations
-- abcde(2021)
-- fghjik(2020)
-- lmnop
+<p> CSV에서 이런 식으로 가져오기 </p>
+<ul>
+ {% for song in site.data.BTS %}
+   {% if song.performer == "j-hope"%}
+    <li>
+        <a href="{{song.URL}}"  target="_blank">{{song.title}}</a>  {{song.date}}
+  </li>
+    {% endif %}
+ {% endfor %}
+</ul>
 
 #### 이미지 다운받기
 <a href="http://image.yes24.com/goods/90407425/XL" >click here</a>
